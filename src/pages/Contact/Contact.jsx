@@ -11,9 +11,7 @@ const Contact = () => {
 
       <h1>Contact Me</h1>
 
-      <p className="contact-subtitle">
-        Feel free to reach out for collaborations, internships, or job opportunities.
-      </p>
+      
 
       <div className="contact-container">
 

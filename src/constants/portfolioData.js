@@ -157,7 +157,6 @@ const portfolioData = {
 
       tech: [
         "Python",
-        "Flask",
         "NLP",
         "LLMs",
         "Generative AI"
@@ -197,7 +196,7 @@ const portfolioData = {
       title: "Netflix Recommendation System",
 
       description:
-        "Implemented Unsupervised Machine Learning techniques including K-Means Clustering, PCA, and t-SNE to analyze Netflix datasets and perform customer segmentation.",
+        "Implemented Unsupervised Machine Learning techniques including K-Means Clustering, PCA  to analyze Netflix datasets and perform customer segmentation.",
 
       tech: [
         "Python",
