@@ -21,6 +21,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # ✅ Missing Step 1
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -47,7 +51,12 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    permissions:
+      pages: write
+      id-token: write
+
     steps:
+      # ✅ Missing Step 2
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
